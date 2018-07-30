@@ -2,9 +2,8 @@
 title: 'Week 6 (Oct 11 - Oct 17)'
 date: 10/11/2017
 published: true
-header_image_credit: 'K2_UX, Flickr.com'
-header_image_creditlink: 'https://www.flickr.com/photos/k2_ux/8447614292/'
 hide_from_post_list: true
+hide_git_sync_repo_link: false
 ---
 
 ##### Presented Slides
@@ -16,8 +15,7 @@ hide_from_post_list: true
 [Oct 11th Class One-minute Summaries](https://canvas.sfu.ca/courses/36662/assignments/267533)
 
 ##### Presented Slides  
-Usability Inspection ([Download slides as PDF](#))
-<div class="embed-responsive embed-responsive-16by9"><figure><iframe src="https://www.swipe.to/embed/9967fp" allowfullscreen></iframe></figure></div>
+[plugin:page-inject](/slides/unit-06)
 
 ##### Supplemental Materials  
 [plugin:youtube](https://www.youtube.com/watch?v=QckIzHC99Xc)
@@ -26,4 +24,12 @@ Usability Inspection ([Download slides as PDF](#))
 [Usability Inspection Peer Reviews](https://canvas.sfu.ca/courses/36662/)
 
 ##### Required Reading  
-[embedly url="http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/"]
+[plugin:page-inject](/readings/unit-06)
+
+##### Supplemental Readings  
+[plugin:content-inject](/topics-guide/how-to-plan-conduct-and-summarize-usability-tests/usability-testing-formal)
+[plugin:content-inject](/topics-guide/how-to-plan-conduct-and-summarize-usability-tests/usability-test-surveys)  
+[plugin:content-inject](/topics-guide/how-to-plan-conduct-and-summarize-usability-tests/usability-test-tasks)
+[plugin:content-inject](/topics-guide/how-to-plan-conduct-and-summarize-usability-tests/usability-testing-informal)  
+
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).

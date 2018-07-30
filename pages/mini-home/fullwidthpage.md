@@ -10,7 +10,3 @@ page-inject:
 [plugin:page-inject](/home/_unit-preparations)
 
 [plugin:content-inject](/home/_important-reminders)
-
-<hr>
-
-[plugin:page-inject](/webpage-card)

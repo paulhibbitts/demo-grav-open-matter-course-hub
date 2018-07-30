@@ -2,12 +2,14 @@
 title: 'Week 2 (Sep 13 - 19)'
 date: 09/13/2017
 published: true
-header_image_credit: 'CannedTuna, Flickr.com'
-header_image_creditlink: 'https://www.flickr.com/photos/cannedtuna/4853380320/'
+hide_from_post_list: false
+hide_git_sync_repo_link: false
 ---
 
-##### Presented Slides
-[The Process of UX Design](https://swipe.to/9967fp)  
+##### What does a holistic user experience design process look like?
+[Software Development Processes](https://www.swipe.to/9967fp?p=2rXR1F3mH)  
+[User Experience Design Processes](https://www.swipe.to/9967fp?p=bhT4QfB2J)  
+[Our Design Process (aka Toolkit)](https://www.swipe.to/9967fp?p=1Mb9rDTJS)  
 
 ===
 
@@ -15,11 +17,10 @@ header_image_creditlink: 'https://www.flickr.com/photos/cannedtuna/4853380320/'
 [Sep 13th Class One-minute Summaries](https://canvas.sfu.ca/courses/36662/assignments/267537)
 
 ##### Presented Slides  
-The Process of UX Design ([Download slides as PDF](#))
-<div class="embed-responsive embed-responsive-16by9"><figure><iframe src="https://www.swipe.to/embed/9967fp" allowfullscreen></iframe></figure></div>
+[plugin:page-inject](/slides/unit-02)
 
 ##### CMPT-363 UX Design Process/Toolkit
-![CMPT-363 UX Design Process/Toolkit Diagram](ux-design-process-v4.png)
+![CMPT-363 UX Design Process/Toolkit Diagram](/images/ux-design-process-v4.png)
 
 ##### Assignments
 [Project Proposal](https://canvas.sfu.ca/courses/36662/assignments/267529)   
@@ -28,7 +29,11 @@ The Process of UX Design ([Download slides as PDF](#))
 [Product Reaction Cards](https://canvas.sfu.ca/courses/36662/files/folder/Handouts/Product%20Reaction%20Cards)  
 
 ##### Recommended Reading  
-[embedly url="https://medium.com/salesforce-ux/designing-digital-products-with-mental-models-45ac5c0a9dc2"]
+[plugin:page-inject](/readings/unit-02)
 
-##### Quick Quiz
-[h5p id="213957"]
+[plugin:page-inject](/h5p/user-centered-design)
+
+##### Supplemental Readings  
+[plugin:content-inject](/topics-guide/what-does-a-holistic-user-experience-design-process-look-like/user-centered-design)   
+
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).

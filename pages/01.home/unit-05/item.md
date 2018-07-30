@@ -2,9 +2,8 @@
 title: 'Week 5 (Oct 4 - 10)'
 date: 10/04/2017
 published: true
-header_image_credit: 'Nicholas Wang, Flickr.com'
-header_image_creditlink: 'https://www.flickr.com/photos/cloneofsnake/13966760787/'
 hide_from_post_list: true
+hide_git_sync_repo_link: false
 ---
 
 ##### Presented Slides
@@ -16,12 +15,23 @@ hide_from_post_list: true
 [Oct 4th Class One-minute Summaries](https://canvas.sfu.ca/courses/36662/assignments/267534)
 
 ##### Presented Slides  
-User Research ([Download slides as PDF](#))
-<div class="embed-responsive embed-responsive-16by9"><figure><iframe src="https://www.swipe.to/embed/9967fp" allowfullscreen></iframe></figure></div>
+[plugin:page-inject](/slides/unit-05)
 
 ##### Supplemental Materials  
 [What People Are Really Doing Video](http://vimeo.com/album/169777/video/7099570)  
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/7099570" width="500" height="275" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ##### Required Reading  
-[embedly url="https://www.smashingmagazine.com/2013/09/5-step-process-conducting-user-research/"]
+[plugin:page-inject](/readings/unit-05)
+
+##### Supplemental Readings  
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/contextual-inquiry)
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/empathy-maps)
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/interviews)  
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/job-stories)  
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/personas-proto)    
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/surveys)  
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/task-analysis)  
+[plugin:content-inject](/topics-guide/how-to-understand-and-communicate-peoples-needs-and-behaviors/user-research)  
+
+Still wanting more? Explore the [UX Techniques Guide](../../topics-guide) or the course [Resources](../../resources).
