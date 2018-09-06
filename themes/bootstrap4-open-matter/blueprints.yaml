@@ -1,6 +1,6 @@
 name: 'Bootstrap4 Open Matter'
-version: 0.9.71
-description: 'A customized version of the Bootstrap 4 theme, with additional features to support open and collaborative materials - inside or outside of your current platform (i.e. LMS).'
+version: 0.9.94
+description: "A custom version of the Bootstrap4 theme for open blogs, course hubs and more. Includes Git Sync and 'chromeless' content embedding."
 icon: bold
 author:
     name: 'Hibbitts Design'
@@ -20,6 +20,7 @@ dependencies:
   - archives
   - breadcrumbs
   - email
+  - error
   - external_links
   - feed
   - form
@@ -30,6 +31,7 @@ dependencies:
   - markdown-notices
   - page-inject
   - pagination
+  - problems
   - taxonomylist
   - twigfeeds
   - twigpcre
@@ -243,10 +245,46 @@ form:
                             _parent: 'Open in the parent frame'
                             _top: 'Open in the full body of the window'
                             _self: 'Open in the same frame as clicked'
+
         bootstrap4_options:
           type: tab
           title: Bootstrap4  Options
           fields:
+
+            generaloptions:
+                type: section
+                title: 'Visual Style (Bootstrap4 CSS)'
+                underline: true
+            theme_stylesheet:
+              type: select
+              size: medium
+              classes: fancy
+              label: Theme Stylesheet
+              default: 'default'
+              options:
+                'default': "Default"
+                'cerulean': "Cerulean"
+                'cosmo': "Cosmo"
+                'cyborg': "Cyborg"
+                'darkly': "Darkly"
+                'flatly': "Flatly"
+                'journal': "Journal"
+                'litera': "Litera"
+                'lumen': "Lumen"
+                'lux': "Lux"
+                'materia': "Materia"
+                'minty': "Minty"
+                'pulse': "Pulse"
+                'sandstone': "Sandstone"
+                'sketchy': "Sketchy"
+                'simplex': "Simplex"
+                'slate': "Slate"
+                'solar': "Solar"
+                'spacelab': "Spacelab"
+                'superhero': "Superhero"
+                'united': "United"
+                'yeti': "Yeti"
+
             menubaroptions:
                 type: section
                 title: 'NavBar (Bootstrap4 Menubar)'
@@ -259,11 +297,26 @@ form:
                 options:
                     navbar-dark: Dark
                     navbar-light: Light
-            navbar_bgcolor:
+            navbar_bg:
+              type: select
+              size: small
+              classes: fancy
+              label: NavBar Background
+              default: 'default'
+              options:
+                'default': "Default"
+                'bg-primary': "bg-primary"
+                'bg-success': "bg-success"
+                'bg-info': "bg-info"
+                'bg-warning': "bg-warning"
+                'bg-danger': "bg-danger"
+                'bg-inverse': "bg-inverse"
+                'bg-faded': "bg-faded"
+            navbar_bg_color:
                 type: colorpicker
                 label: 'NavBar Background Color'
+                description: If set, will be used for NavBar Background.
                 size: small
-                default: '#ffffff'
             navbar_position:
                 type: select
                 label: 'NavBar Postion'
