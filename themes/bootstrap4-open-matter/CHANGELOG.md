@@ -1,3 +1,28 @@
+# v0.9.99
+## 09/14/2018
+
+1. [](#improved)
+    * Adjusted page margins for smaller screens (and when embedding pages into other systems)
+
+# v0.9.98
+## 09/08/2018
+
+1. [](#improved)
+    * Updated various Git Sync-related blueprint text labels
+
+# v0.9.97
+## 09/08/2018
+
+1. [](#improved)
+    * Revised name of page frontmatter option to hide page summaries to 'hide_post_summary'
+    * Updated example pages in theme '_demo' folder
+
+# v0.9.96
+## 09/07/2018
+
+1. [](#improved)
+    * Added support for display of either blog item summary or content when hiding "View all of..." links
+
 # v0.9.95
 ## 09/07/2018
 
