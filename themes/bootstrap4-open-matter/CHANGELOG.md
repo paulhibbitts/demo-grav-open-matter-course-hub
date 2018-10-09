@@ -1,3 +1,61 @@
+# v1.0.8
+## 10/08/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v1.0.7
+## 10/07/2018
+
+1. [](#improved)
+    * Removed dashes from all template and blueprint names
+    * Updated example pages in theme '_demo' folder
+
+# v1.0.6
+## 10/07/2018
+
+1. [](#new)
+    * Added blueprints for section-type pages
+1. [](#improved)
+    * Revised visual styling of active page indicator in sections nav
+    * Adjusted page title alignment for section-type pages
+    * Updated demo pages in theme '_demo' folder
+
+# v1.0.5
+## 10/06/2018
+
+1. [](#new)
+    * Added blueprints for section-type pages
+1. [](#improved)
+    * Revised visual styling of active page indicator in sections nav
+
+# v1.0.4
+## 10/06/2018
+
+1. [](#bugfix)
+    * Fixed current page check in section nav
+
+# v1.0.3
+## 10/05/2018
+
+1. [](#improved)
+    * Restored the display of a Creative Commons License and Git Sync links on section-type pages
+
+# v1.0.2
+## 10/05/2018
+
+1. [](#new)
+    * Added page frontmatter option (`sections_nav_align`) to display sections nav on left or right side of page
+    * Updated example pages in theme '_demo' folder
+
+# v1.0.1
+## 10/04/2018
+
+1. [](#new)
+    * Added new 'section' and 'subsection' page templates
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
 # v1.0.0
 ## 09/23/2018
 
