@@ -15,7 +15,7 @@ post_icon: calendar-o
 hide_post_date: true
 hide_post_taxonomy: true
 continue_link_as_button: false
-hide_git_sync_repo_link: true
+hide_git_sync_repo_link: false
 sitemap:
     changefreq: monthly
 hide_sidebar: false
