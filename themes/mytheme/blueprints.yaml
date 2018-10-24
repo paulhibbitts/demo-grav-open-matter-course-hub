@@ -89,10 +89,10 @@ form:
                 type: section
                 title: 'Git Sync Site Theme Files Link'
                 underline: true
-            git_sync.edit_theme_link_location:
+            git_sync_edit_theme_link_location:
                 type: select
                 label: 'Location of Site Theme Files Link'
-                default: None
+                default: none
                 size: small
                 options:
                     footer: Footer
@@ -213,6 +213,7 @@ form:
                             _parent: 'Open in the parent frame'
                             _top: 'Open in the full body of the window'
                             _self: 'Open in the same frame as clicked'
+
         bootstrap4_options:
           type: tab
           title: Bootstrap4  Options
@@ -231,9 +232,7 @@ form:
               options:
                 'default': "Default"
                 'cerulean': "Cerulean"
-                'cloudhouse': "Cloudhouse"
                 'cosmo': "Cosmo"
-                'csiogold': 'Csiogold'
                 'cyborg': "Cyborg"
                 'darkly': "Darkly"
                 'flatly': "Flatly"
@@ -245,8 +244,6 @@ form:
                 'minty': "Minty"
                 'pulse': "Pulse"
                 'sandstone': "Sandstone"
-                'schwoblue': "Schwoblue"
-                'schwobrown': "Schwobrown"
                 'sketchy': "Sketchy"
                 'simplex': "Simplex"
                 'slate': "Slate"
