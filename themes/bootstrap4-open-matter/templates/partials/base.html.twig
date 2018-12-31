@@ -1,3 +1,23 @@
+{% set multi_course_hub = theme_var('multi_course_hub.enabled') %}
+{% set arrayofpath = uri.path|split('/') %}
+{% set firstfolderofpath = arrayofpath[1] %}
+
+{# MultiCourse hub compatibility - hibbittsdesign.org #}
+{% if multi_course_hub or page.find('/' ~ firstfolderofpath).template == 'course' %}
+  {% if firstfolderofpath %}
+    {% set site_title = page.find('/' ~ firstfolderofpath ).title %}
+  {% else %}
+    {% set site_title = site.title|e('html') %}
+  {% endif %}
+  {% set footer_content = page.find('/' ~ firstfolderofpath ~ '/footer').content %}
+  {% if footer_content == empty %}
+    {% set footer_content = page.find('/footer').content %}
+  {% endif %}
+{% else %}
+  {% set site_title = site.title|e('html') %}
+  {% set footer_content = page.find('/footer').content %}
+{% endif %}
+
 <!DOCTYPE html>
 <html lang="{{ grav.language.getLanguage ?: 'en' }}">
     <head>
@@ -8,7 +28,7 @@
 
         {% include 'partials/metadata.html.twig' %}
 
-        <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+        <title>{% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site_title }}</title>
         <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png', true) }}" />
 
         {% block stylesheets %}
@@ -23,7 +43,7 @@
             {% do assets.add('theme://css/font-awesome.min.css',97) %}
             {% do assets.add('theme://css-compiled/theme.css',96) %}
         {% endblock %}
-        {{ assets.css() }}
+        {{ assets.css()|raw }}
 
         {% block javascripts %}
             {% do assets.add('jquery', 101) %}
@@ -37,7 +57,7 @@
                 {% do assets.add('theme://js/html5shiv-printshiv.min.js') %}
             {% endif %}
         {% endblock %}
-        {{ assets.js() }}
+        {{ assets.js()|raw }}
 
         {% endblock head %}
     </head>
@@ -62,7 +82,7 @@
         {% if not (grav.uri.param('chromeless') or grav.uri.param('embedded')) and not(theme_var('chromeless.enabled')) %}
           <div class="footer">
               <div class="container">
-                {% if pages.find('/footer').header.footer_scroll %}
+                {% if page.find('/footer').header.footer_scroll %}
                   {# added top of page navigation element - hibbittsdesign.org #}
                   <div class="up-arrow">
                     <a href="#" id="top" title="Top of Page">
@@ -82,9 +102,8 @@
                   {% if theme_var('git_sync_edit_theme_link_location') == 'footer' %}
                     <p>{% include 'partials/git_sync_theme_link.html.twig' %}</p>
                   {% endif %}
-                  {% set content = pages.find('/footer').content %}
-                  {% if content %}
-                    {{ content }}
+                  {% if footer_content %}
+                    {{ footer_content|raw }}
                   {% endif %}
                   </div>
               </div>
@@ -92,7 +111,7 @@
         {% endif %}
 
         {% block bottom %}
-            {{ assets.js('bottom') }}
+            {{ assets.js('bottom')|raw }}
         {% endblock %}
 
         {# added global scripts - hibbittsdesign.org #}

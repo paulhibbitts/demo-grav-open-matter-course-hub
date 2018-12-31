@@ -1,3 +1,212 @@
+# v1.6.8
+## 12/28/2018
+
+1. [](#improved)
+    * Removed unneeded theme option for MultiCourse feature (automatic detection is now fully supported)
+
+# v1.6.7
+## 12/27/2018
+
+1. [](#new)
+    * Added the ability to hide courses from a course list page and set custom course home page
+1. [](#improved)
+    * Revised MultiCourse feature to be more robust and automatic detection is now supported (manual theme option will be soon removed once further testing is complete)
+    * Removed theme option to hide homepage in menubar (set the 'visible' option to 'false' on homepage for same functionality)
+    * Updated example pages in theme '_demo' folder
+
+# v1.6.6
+## 12/22/2018
+
+1. [](#new)
+    * Added menubar item template and blueprint for easier editing of course-specific menubar items (replaced 'menu_classes' with more specific 'menu_target' option)
+
+# v1.6.5
+## 12/22/2018
+
+1. [](#improved)
+    * Updated 'menu_class' page header option to 'menu_classes' to better match existing option names
+
+# v1.6.4
+## 12/21/2018
+
+1. [](#improved)
+    * Added 'menu_icon' and 'menu_class' to support menu icon and class for redirect-type pages
+
+# v1.6.3
+## 12/21/2018
+
+1. [](#improved)
+    * Updated CSS style of MultiCourse list cards
+
+# v1.6.2
+## 12/19/2018
+
+1. [](#improved)
+    * Added two column display of courses (using Bootstrap 4 Cards) on course list page
+
+# v1.6.1
+## 12/19/2018
+
+1. [](#new)
+    * Added courselist/course templates and blueprints to provide an auto-generated index of all courses within a MultiCourse Hub
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v1.6.0
+## 12/16/2018
+
+1. [](#improved)
+    * Featured Posts and Popular Tags are now more compatible with use of multiple blogs. Note: use `- '@self'` for the filter in the Archives Plugin for use of multiple blogs. (Thanks to @pamtbaau for pointing me in the right direction)
+
+# v1.5.9
+## 12/12/2018
+
+1. [](#improved)
+    * Section-type pages now have the Folder Numeric Prefix option enabled by default (so Section pages can be manually sorted)
+
+# v1.5.8
+## 12/12/2018
+
+1. [](#improved)
+    * Updated H5P and SpeakerDeck templates
+1. [](#bugfix)
+    * Removed deprecated Twitter feed template and blueprint
+
+# v1.5.7
+## 12/11/2018
+
+1. [](#bugfix)
+    * Fixed incorrect H5P references
+    * Updated example pages in theme '_demo' folder
+
+# v1.5.6
+## 12/11/2018
+
+1. [](#improved)
+    * Added option to hide or show content titles for custom content type templates and blueprints
+    * Updated example pages in theme '_demo' folder
+
+# v1.5.5
+## 12/09/2018
+
+1. [](#bugfix)
+    * Fixed display of expected site name for top-level site pages
+
+# v1.5.4
+## 12/08/2018
+
+1. [](#improved)
+    * Added help and descriptive text to 'MultiCourse' setting in theme blueprint
+
+# v1.5.3
+## 12/06/2018
+
+1. [](#improved)
+    * Revised theme blueprints and templates to use the term 'MultiCourse'
+    * Updated example pages in theme '_demo' folder
+
+# v1.5.2
+## 12/05/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v1.5.1
+## 12/03/2018
+
+1. [](#improved)
+    * Improved experimental support for multiple courses within one hub
+    * Improved compatibility when using the Page Inject Plugin for several page templates
+
+# v1.5.0
+## 11/19/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v1.4.9
+## 11/18/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v1.4.8
+## 11/18/2018
+
+1. [](#improved)
+    * Improved course title handling within one course hub
+    * Updated example pages in theme '_demo' folder
+
+# v1.4.7
+## 11/17/2018
+
+1. [](#improved)
+    * Title of each course hub is now set by the title of the top-level course hub page (i.e. `default.md`) instead of an additional `site_title` frontmatter variable in the homepage of the course (i.e. `home.md`)
+    * Improved course navigation handling within one course hub
+    * Updated example pages in theme '_demo' folder
+
+# v1.4.6
+## 11/16/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v1.4.5
+## 11/16/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v1.4.4
+## 11/16/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v1.4.3
+## 11/15/2018
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v1.4.2
+## 11/15/2018
+
+1. [](#new)
+    * Added support for global image header, sidebar, and footer
+1. [](#improved)
+    * Adjusted space between custom menu item icons and text labels
+    * Updated example pages in theme '_demo' folder
+
+# v1.4.1
+## 11/15/2018
+
+1. [](#improved)
+    * Revised page titles to better indicate current course
+1. [](#bugfix)
+    * Fixed ChangeLog format
+
+# v1.4.0
+## 11/15/2018
+
+1. [](#new)
+    * Added experimental support for multiple courses within one hub (i.e. MultiCourse Hub) with each course having it's own image header, site menu, sidebar and footer (enabled with theme option `multi_course_hub` to `true`)
+    * Added new 'multicourse-hub' example site in theme '_demo' folder
+
+# v1.3.0
+## 11/07/2018
+
+1. [](#improved)
+    * Twig 2.0 compatibility
+
+# v1.2.5
+## 10/30/2018
+
+1. [](#improved)
+    * Added check for page visibility in Custom Content List page collections (to support creating archive folders within page folders)
+    * Updated item blueprints to set default page visibility to true
+    * Updated example pages in theme '_demo' folder
+
 # v1.2.4
 ## 10/22/2018
 
@@ -60,6 +269,7 @@
 1. [](#bugfix)
     * Corrected filename for Grava11y (Accessibility for Grav) Plugin
 
+# v1.1.4
 ## 10/14/2018
 
 1. [](#new)
@@ -282,7 +492,7 @@
     * Added Twitter Shortcode ([twitter url="" text="" theme="" height=""]), where theme can be 'light' or 'dark'
     * Added PDF Shortcode ([pdf url="")
     * Added new page template and blueprint ('Page') with optional display of sidebar (replaces previous 'fullwidthpage' and 'sidebarpage' templates and blueprints)
-    * Added new HP5 page templates
+    * Added new H5P page templates
 1. [](#improved)
     * Added default favicon folder and file
     * Added insert PDF Shortcode button into Editor toolbar

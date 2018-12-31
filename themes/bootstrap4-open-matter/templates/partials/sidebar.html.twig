@@ -1,10 +1,20 @@
 {% set feed_url = blog.url == '/' or blog.url == base_url_relative ? (base_url_relative~'/'~blog.slug) : blog.url %}
 {% set new_base_url = blog.url == '/' ? '' : blog.url %}
+{% set multi_course_hub = theme_var('multi_course_hub.enabled') %}
+{% set arrayofpath = uri.path|split('/') %}
+{% set firstfolderofpath = arrayofpath[1] %}
 
-{% set sidebar_page = pages.find('/sidebar') %}
-{% set sidebar_page_content =  sidebar_page.content %}
+{# MultiCourse hub compatibility - hibbittsdesign.org #}
+{% if multi_course_hub or page.find('/' ~ firstfolderofpath).template == 'course' %}
+  {% set sidebar_page_content = page.find('/' ~ firstfolderofpath ~ '/sidebar').content %}
+  {% if sidebar_page_content == empty %}
+    {% set sidebar_page_content = page.find('/sidebar').content %}
+  {% endif %}
+{% else %}
+  {% set sidebar_page_content = page.find('/sidebar').content %}
+{% endif %}
 
-<h1 class="hidden">{{sidebar_page.title}}</h1>
+<h1 class="hidden">{{page.title}}</h1>
 
 {% if config.plugins.simplesearch.enabled %}
 <div class="sidebar-content">
@@ -17,7 +27,7 @@
 {% if sidebar_page.header.position == 'top' or sidebar_page.header.position is empty %}
   {% if sidebar_page_content is not empty %}
     <div class="sidebar-content">
-      {{ sidebar_page_content }}
+      {{ sidebar_page_content|raw }}
     </div>
   {% endif %}
 {% endif %}
@@ -37,7 +47,7 @@
 {% if config.plugins.taxonomylist.enabled %}
 <div class="sidebar-content">
     <h2>{{ 'SIDEBAR.POPULAR_TAGS.HEADLINE'|t }}</h2>
-    {% include 'partials/taxonomylist.html.twig' with {'base_url':new_base_url, 'taxonomy':'tag'} %}
+    {% include 'partials/taxonomylist.html.twig' with {'base_url':new_base_url, 'taxonomy':'tag', children_only: true} %}
 </div>
 {% endif %}
 
@@ -52,7 +62,7 @@
 {% if sidebar_page.header.position == 'bottom' %}
   {% if sidebar_page_content is not empty %}
     <div class="sidebar-content">
-      {{ sidebar_page_content }}
+      {{ sidebar_page_content|raw }}
     </div>
   {% endif %}
 {% endif %}
