@@ -1,3 +1,329 @@
+# v2.1.9
+## 05/03/2019
+
+1. [](#new)
+    * Improved layout of Presentation list pages
+
+# v2.1.8
+## 05/03/2019
+
+1. [](#new)
+    * Initial support for Presentation list pages
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v2.1.7
+## 05/02/2019
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v2.1.6
+## 05/01/2019
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v2.1.5
+## 04/27/2019
+
+1. [](#improved)
+    * Adjust display of course list items for better display on smaller screens
+
+# v2.1.4
+## 04/26/2019
+
+1. [](#improved)
+    * Further improvements to the display of course list page with larger number of courses
+
+# v2.1.3
+## 04/26/2019
+
+1. [](#improved)
+    * Improvements to the display of course list page with larger number of courses
+
+# v2.1.2
+## 04/25/2019
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v2.1.1
+## 04/24/2019
+
+1. [](#improved)
+    * Add support for taxonomy tags on Section child pages
+
+# v2.1.0
+## 04/24/2019
+
+1. [](#improved)
+    * Further improved taxonomy support for section-type pages
+
+# v2.0.9
+## 04/23/2019
+
+1. [](#new)
+    * Initial taxonomy support for section-type pages
+
+# v2.0.8
+## 04/23/2019
+
+1. [](#improved)
+    * Improved handling of Section Page Next/Prev buttons for previous Section with children pages
+
+# v2.0.7
+## 04/18/2019
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v2.0.6
+## 04/17/2019
+
+1. [](#improved)
+    * Added paragraph wrapper to embedly, h5p, iframe, pdf, speakerdeck and swipedeck templates
+    * Updated example pages in theme '_demo' folder
+
+# v2.0.5
+## 04/17/2019
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+
+# v2.0.4
+## 04/16/2019
+
+1. [](#improved)
+    * Removed unneeded Atom and RSS feed Twig templates (thanks @rhuk for the new Page Inject Plugin release)
+
+# v2.0.3
+## 04/15/2019
+
+1. [](#improved)
+    * Added option to show/hide custom content item links
+    * Updated example pages in theme '_demo' folder
+
+# v2.0.2
+## 04/14/2019
+
+1. [](#improved)
+    * Improved compatibility of custom content list pages with previous theme releases
+    * Updated example pages in theme '_demo' folder
+
+# v2.0.1
+## 04/14/2019
+
+1. [](#improved)
+    * Added support for optional direct link on iFrame page and content titles
+    * Updated example pages in theme '_demo' folder
+
+# v2.0.0
+## 04/12/2019
+
+1. [](#new)
+    * Set Grav dependency to 1.6+
+    * Added Presentation Plugin as dependency
+    * Added insert Presentation Shortcode button into Editor toolbar
+    * Added example pages in theme '_demo' folder to include use of the Presentation Plugin
+    * Implement assets rendering using **Deferred Block** Twig extension
+1. [](#improved)
+    * Added 'hideheaderimage' as a URL parameter to hide the header image for blog posts
+    * Added option to include link for iFrame content title
+    * Support for dynamic height footer content (thanks @OleVik)
+    * Removed unneeded 'fullwidthpage' and 'sidebarpage' templates and blueprints
+    * Added paragraph wrapper to Bootstrap button, H5P, and Swipe Shortcodes
+
+# v1.9.7
+## 03/22/2019
+
+1. [](#new)
+    * Set Dependency of Grav 1.5.10+ which has support for new **Deferred Block** Twig extension
+    * Implement assets rendering using **Deferred Block** Twig extension
+
+# v1.9.6
+## 03/21/2019
+
+1. [](#bugfix)
+    * Fixed course list page layout with dynamic height footer
+
+# v1.9.5
+## 03/21/2019
+
+1. [](#improved)
+    * Support for dynamic height footer content (thanks @OleVik)
+
+# v1.9.4
+## 03/20/2019
+
+1. [](#bugfix)
+    * Removed 'Presentation' folder in theme '_demo' folder intended for 2.0 release
+
+# v1.9.3
+## 02/24/2019
+
+1. [](#improved)
+    * Added 'Gill Sans MT' to default font family for Presentation pages
+
+# v1.9.2
+## 02/24/2019
+
+1. [](#improved)
+    * Added defaults for sample content, textscale and fonts with blueprint for Presentation Plugin
+
+# v1.9.1
+## 02/15/2019
+
+1. [](#improved)
+    * Added more robust support for MultiCourse feature using the Presentation Plugin
+    * Added support for default aspect ratio when using the Presentation Plugin
+
+# v1.9.0
+## 02/13/2019
+
+1. [](#improved)
+    * For improved support of the Presentation Plugin, Markdown links with "=_target" are now handled better
+
+# v1.8.9
+## 02/09/2019
+
+1. [](#improved)
+    * Better support for flat lists of Section-type pages
+
+# v1.8.8
+## 02/08/2019
+
+1. [](#bugfix)
+    * Fixed RSS and Atom feeds for pages with embedded iFrame or Topics
+1. [](#improved)
+    * Additional templates for RSS and Atom feeds no longer contains duplicated Twig code (embed is used instead)
+
+# v1.8.7
+## 02/08/2019
+
+1. [](#improved)
+    * iFrame link and title only templates now support both complete URLs and local Grav site page paths
+
+# v1.8.6
+## 02/07/2019
+
+1. [](#improved)
+    * iFrame template and blueprint now supports both complete URLs and local Grav site page paths
+
+# v1.8.5
+## 02/06/2019
+
+1. [](#new)
+    * Added support for H5P content to be hosted on H5P.com (in addition to H5P.org and your own local server)
+
+# v1.8.4
+## 02/05/2019
+
+1. [](#new)
+    * Added options to show or hide Section Page Sidebar and change Section Navbar alignment (left or right)
+
+# v1.8.3
+## 02/04/2019
+
+1. [](#new)
+    * Added option to show or hide Section Page Next/Prev buttons
+
+# v1.8.2
+## 02/03/2019
+
+1. [](#new)
+    * Added support for 'visible' option setting in Section-type pages. For existing Section-type pages, ensure that any current 'visible: false' values are removed for those pages to be included.
+
+# v1.8.1
+## 01/29/2019
+
+1. [](#improved)
+    * Improved handling of embedded item summary pages
+
+# v1.8.0
+## 01/28/2019
+
+1. [](#improved)
+    * Added 'onlysummary' alias for the URL parameter 'summaryonly'
+
+# v1.7.9
+## 01/28/2019
+
+1. [](#improved)
+    * When displaying pages in 'chromeless' mode, a Creative Commons License is no longer displayed (it is assumed that this would be included in the parent system i.e. LMS)
+1. [](#bugfix)
+    * Fixed display of additional text for a Creative Commons License
+
+# v1.7.8
+## 01/27/2019
+
+1. [](#improved)
+    * Adjusted display of optional link items for embedded iFrames
+
+# v1.7.7
+## 01/27/2019
+
+1. [](#improved)
+    * Added optional link items for each iFrame displayed
+1. [](#bugfix)
+    * Fixed check for site-wide 'chromeless' option for custom content lists
+
+# v1.7.6
+## 01/25/2019
+
+1. [](#bugfix)
+    * Removed default custom menubar entry
+
+# v1.7.5
+## 01/21/2019
+
+1. [](#bugfix)
+    * Fixed check for theme 'chromeless' option and display of Next/Prev Post buttons
+
+# v1.7.4
+## 01/14/2019
+
+1. [](#new)
+    * Added iFrame template, blueprint, and shortcode (with responsive support for 4by3 and 16by9 aspect ratios)
+1. [](#improved)
+    * Added option for custom Git Sync link text in page headers
+1. [](#bugfix)
+    * Fixed display of Git Sync link on custom content list and page rss feeds pages
+
+# v1.7.3
+## 01/08/2019
+
+1. [](#bugfix)
+    * Custom menu items without icons are now presented correctly
+
+# v1.7.2
+## 01/07/2019
+
+1. [](#bugfix)
+    * Removed experimental support for multiple blog compatibility for Featured Posts and Popular Tags
+
+# v1.7.1
+## 01/05/2019
+
+1. [](#improved)
+    * Added optional course list title for courses
+    * Updated example pages in theme '_demo' folder
+
+# v1.7.0
+## 01/04/2019
+
+1. [](#improved)
+    * Updated example pages in theme '_demo' folder
+1. [](#bugfix)
+    * Fixed malformed link for MultiCourse home page
+
+# v1.6.9
+## 01/03/2019
+
+1. [](#improved)
+    * Course list cards can now display course page content
+    * Added check for page header 'published' for modular home page items
+
 # v1.6.8
 ## 12/28/2018
 
@@ -56,7 +382,7 @@
 ## 12/16/2018
 
 1. [](#improved)
-    * Featured Posts and Popular Tags are now more compatible with use of multiple blogs. Note: use `- '@self'` for the filter in the Archives Plugin for use of multiple blogs. (Thanks to @pamtbaau for pointing me in the right direction)
+    * Experimental support of multiple blog compatibility for Featured Posts and Popular Tags. Note: use `- '@self'` for the filter in the Archives Plugin for use of multiple blogs. (Thanks to @pamtbaau for pointing me in the right direction)
 
 # v1.5.9
 ## 12/12/2018

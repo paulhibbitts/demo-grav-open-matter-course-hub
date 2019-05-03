@@ -10,9 +10,9 @@ header_image_alt_text: 'Information architecture'
 ---
 
 ## What does a holistic user experience design process look like?
-[Software Development Processes](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=3)  
-[User Experience Design Processes](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=4)  
-[Our Design Process (aka Toolkit)](https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf#page=5)
+[Software Development Processes](../../presentations/placeholder-slide?target=_blank#/placeholder-slide-4)  
+[User Experience Design Processes](../../presentations/placeholder-slide?target=_blank#/placeholder-slide-5)  
+[Our Design Process (aka Toolkit)](../../presentations/placeholder-slide?target=_blank#/placeholder-slide-6)  
 
 ===
 
@@ -23,13 +23,16 @@ header_image_alt_text: 'Information architecture'
 
 ### Presented Slides  
 The Process of UX Design  
-[pdf url="https://demo.hibbittsdesign.org/cpt-363-2018/pdfs/cpt-363-slides-placeholder.pdf"]  
+[presentation="presentations/placeholder-slide"]
 
 ### CPT-363 UX Design Process/Toolkit
 ![CPT-363 UX Design Process/Toolkit Diagram](ux-design-process-v4.png)
 
 ### Handouts
 [Product Reaction Cards](https://sso.canvaslms.com/courses/1413912/files/folder/Handouts/Product%20Reaction%20Cards)  
+
+### Quick Quiz
+[h5p id="213956"]
 
 ### Assignments
 [Course Reflection Log](https://sso.canvaslms.com/courses/1413912/assignments/9519528)  
