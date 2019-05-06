@@ -1,5 +1,5 @@
 ---
-title: Placeholder Slide
+title: 'Placeholder Slide'
 ---
 
 [.text: alignment(center)]
@@ -8,7 +8,7 @@ title: Placeholder Slide
 
 ### Slides Placeholder
 
-“A work in progress. And the possibilities are endless.”
+> “A work in progress. And the possibilities are endless.”
 -- Elizabeth Eulberg
 
 ---
