@@ -1,5 +1,5 @@
 ---
-title: 'Sections Page'
+title: 'Multi-Section Page'
 published: true
 hide_page_title: true
 hide_git_sync_repo_link: false
@@ -8,7 +8,11 @@ content:
     order:
         by: folder
         dir: asc
-sections_nav_align: right
+    taxonomy:
+        tag:
+            - view1
+            - view2
+sections_nav_align: left
 hide_next_prev_page_buttons: false
 show_sidebar: false
 ---
