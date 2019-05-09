@@ -1,3 +1,23 @@
+# v2.2.6
+## 05/09/2019
+
+1. [](#improved)
+    * Additional support of the alias 'embedded' for 'chromeless'
+    * Updated demo pages in theme '_demo' folder
+
+# v2.2.5
+## 05/08/2019
+
+1. [](#improved)
+    * Renamed Custom Content List template and blueprint to Custom Page Types
+    * Updated demo pages in theme '_demo' folder
+
+# v2.2.4
+## 05/07/2019
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
 # v2.2.3
 ## 05/05/2019
 
