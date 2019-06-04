@@ -1,3 +1,63 @@
+# v2.4.1
+## 06/04/2019
+
+1. [](#bugfix)
+    * Restored missing open bracket for Git Sync Link with Presentations
+
+# v2.4.0
+## 06/03/2019
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v2.3.9
+## 06/03/2019
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v2.3.8
+## 06/03/2019
+
+1. [](#new)
+    * Added option to hide Presentation title
+1. [](#improved)
+    * Restored default for new Presentations to not automatically display Git Sync link when embedded
+    * Updated demo pages in theme '_demo' folder
+
+# v2.3.7
+## 06/01/2019
+
+1. [](#improved)
+    * Changed default for new Presentations to not automatically display Git Sync link when embedded
+    * Updated demo pages in theme '_demo' folder
+
+# v2.3.6
+## 05/31/2019
+
+1. [](#improved)
+    * Improved display of iFrame template items with associated text labels
+
+# v2.3.5
+## 05/31/2019
+
+1. [](#improved)
+    * Made iFrame Shortcode more compatible with Markdown Extra
+
+# v2.3.4
+## 05/31/2019
+
+1. [](#bugfix)
+    * Corrected path to theme Shortcodes
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v2.3.3
+## 05/18/2019
+
+1. [](#improved)
+    * Additional support for Alt tag on blog post header images (no longer requires image credit link)
+
 # v2.3.2
 ## 05/16/2019
 
