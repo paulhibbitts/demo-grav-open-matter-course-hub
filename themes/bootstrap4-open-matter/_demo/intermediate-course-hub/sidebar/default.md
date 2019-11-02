@@ -7,11 +7,11 @@ cache_enable: false
 
 ## Course Facilitator
 Some Name  
-<somename@somewhere.edu>   
+[safe-email autolink="true"]somename@somewhere.edu[/safe-email]  
 
 In-person office hours:  
 Wednesdays 2:30-4:00pm  
-TASC 1 9409  
+TBD  
 
 Virtual office hours chat:  
 Mondays 12:00-1:30pm   

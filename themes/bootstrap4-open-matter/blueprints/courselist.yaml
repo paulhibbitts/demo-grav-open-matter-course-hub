@@ -43,6 +43,18 @@ form:
                 validate:
                     type:                  bool
 
+            header.card_width:
+                type: select
+                label: 'Course List Card Width (in columns)'
+                default: none
+                size: x-small
+                options:
+                    3: 3
+                    4: 4
+                    5: 5
+                    8: 8
+                    12: 12
+
             gitsync:
                 type: section
                 title: Git Sync Link
