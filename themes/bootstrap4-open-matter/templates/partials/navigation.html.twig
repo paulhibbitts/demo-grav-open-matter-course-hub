@@ -8,13 +8,21 @@
 {% set secondfolderofpath = arrayofpath[2] %}
 
 {# MultiCourse hub compatibility - hibbittsdesign.org #}
-{% if page.find('/' ~ firstfolderofpath).template == 'course' %}
+{% if page.find('/' ~ firstfolderofpath).template == 'course' or page.find('/' ~ firstfolderofpath).template == 'subsite' %}
+    {% if page.find('/' ~ firstfolderofpath ).header.navbar_bg_color %}
+      {% set navbar_bg_color = page.find('/' ~ firstfolderofpath ).header.navbar_bg_color %}
+    {% endif %}
     {% set course_home = page.find('/' ~ firstfolderofpath ).header.course_home %}
+    {% if course_home is empty %}
+        {% set course_home = page.find('/' ~ firstfolderofpath ).header.subsite_home %}
+    {% endif %}
     {% if course_home is empty %}
         {% set course_home = config.system.home.alias %}
     {% endif %}
     {% if firstfolderofpath %}
-      {% set base_url_relative = base_url_relative ~ '/' ~ firstfolderofpath ~ '/' ~ course_home %}
+      {% if not (firstfolderofpath in base_url) %}
+        {% set base_url = base_url ~ '/' ~ firstfolderofpath ~ '/' ~ course_home %}
+      {% endif %}
     {% endif %}
     {% if page.find('/' ~ firstfolderofpath).routable %}
       {% set site_title = page.find('/' ~ firstfolderofpath ).title %}
@@ -26,13 +34,24 @@
       {% set background_image = page.find('/headerimage').media.images|first %}
     {% endif %}
     {% set pages = page.evaluate([{'@page.children':'/' ~ firstfolderofpath }]) %}
-{% elseif page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).template == 'course' %}
+{% elseif page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).template == 'course' or page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).template == 'subsite' %}
+    {% if page.find('/' ~ firstfolderofpath ).header.navbar_bg_color %}
+      {% set navbar_bg_color = page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).header.navbar_bg_color %}
+    {% endif %}
     {% set course_home = page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).header.course_home %}
+    {% if course_home is empty %}
+        {% set course_home = page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).header.subsite_home %}
+    {% endif %}
     {% if course_home is empty %}
         {% set course_home = config.system.home.alias %}
     {% endif %}
-    {% set base_url_relative = base_url_relative ~ '/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath ~ '/' ~ course_home %}
+    {% if not (firstfolderofpath ~ '/' ~ secondfolderofpath in base_url) %}
+      {% set base_url = base_url ~ '/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath ~ '/' ~ course_home %}
+    {% endif %}
     {% set site_title = page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).header.course_site_title %}
+    {% if site_title is empty %}
+      {% set site_title = page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).header.subsite_site_title %}
+    {% endif %}
     {% if site_title is empty %}
       {% set site_title = page.find('/' ~ firstfolderofpath ~ '/' ~ secondfolderofpath).title %}
     {% endif %}
@@ -63,7 +82,7 @@
 
 <nav class="navbar {{ navbar_position }} navbar-expand-{{ navbar_breakpoint }} {{ navbar_style }} {{ navbar_bg }}" {{ navbar_bg_color|raw }};" role="navigation">
     <div class="container">
-        <a class="navbar-brand" href="{{ base_url == '' ? '/' : base_url_relative }}">{{ site_title }}</a>
+        <a class="navbar-brand" href="{{ base_url == '' ? '/' : base_url }}">{{ site_title }}</a>
         {% if (pages|first) or (theme_var('display_of_git_sync_repo_link') == 'menu' or theme_var('display_of_git_sync_repo_link') == empty) %}
           <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -91,7 +110,7 @@
                           </div>
                       </li>
                   {% else %}
-                    {% if not (page.find('/' ~ page.slug).template == 'course' or page.find('/' ~ page.slug).template == 'coursegroup') %}
+                    {% if not (page.find('/' ~ page.slug).template == 'course' or page.find('/' ~ page.slug).template == 'subsite' or page.find('/' ~ page.slug).template == 'coursegroup' or page.find('/' ~ page.slug).template == 'subsitegroup') %}
                       {% set page_url = page.url %}
                       {% set page_menu = page.menu %}
                       <li class="nav-item {{ current_page }}"><a class="nav-link" href="{{ page_url }}" {% if page.header.menu_target %} target="{{ page.header.menu_target }}" {% endif %}>{% if page.header.menu_icon %}<i class="fa fa-{{ page.header.menu_icon }}"></i>{% endif %}{{ page_menu }}</a></li>
