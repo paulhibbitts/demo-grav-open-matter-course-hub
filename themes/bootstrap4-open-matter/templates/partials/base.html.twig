@@ -62,8 +62,12 @@
 
         {% block stylesheets %}
             {# load theme.css and custom.css files - hibbittsdesign.org #}
-            {% if theme_var('theme_stylesheet') != 'default' %}
-              {% do assets.addCss("theme://css/bootswatch/#{ theme_var('theme_stylesheet') }/bootstrap.min.css", 100) %}
+            {% if theme.theme_stylesheet is defined and theme_var('theme_stylesheet') is not empty %}
+              {% if theme_var('theme_stylesheet') != 'default' %}
+                {% do assets.addCss("theme://css/bootswatch/#{ theme_var('theme_stylesheet') }/bootstrap.min.css", 100) %}
+              {% else %}
+                {% do assets.addCss('theme://css/bootstrap/bootstrap.min.css') %}
+              {% endif %}
             {% else %}
               {% do assets.addCss('theme://css/bootstrap/bootstrap.min.css') %}
             {% endif %}
@@ -71,6 +75,10 @@
             {% do assets.add('theme://css-compiled/theme.css') %}
             {% do assets.addCss('theme://css/theme.css') %}
             {% do assets.addCss('theme://css/custom.css') %}
+            
+            {% if ((grav.uri.param('chromeless') or grav.uri.param('embedded')) or theme_var('chromeless.enabled')) %}
+              {% do assets.addInlineCss('.chromeless-show{display:block}.chromeless-hide{display:none}') %}
+            {% endif %}
         {% endblock %}
 
         {% block javascripts %}

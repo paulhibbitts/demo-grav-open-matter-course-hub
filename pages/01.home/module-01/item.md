@@ -11,11 +11,6 @@ hide_git_sync_repo_link: true
 ---
 
 ## What is usability and user experience design?
-
-### What is this course all about?
-[Course Overview](../../presentations/placeholder-slides?target=_blank)
-
-### What is usability and user experience design?
 [HCI, UI, IA, IxD, and UX](../../presentations/module-01#/module-01-4?target=_blank)  
 [Design Thinking](../../presentations/module-01#/module-01-5?target=_blank)  
 [Usability and UCD](../../presentations/module-01#/module-01-6?target=_blank)  
@@ -28,9 +23,9 @@ hide_git_sync_repo_link: true
 [May 9th Class One-minute Summaries](https://sso.canvaslms.com/courses/1413912/assignments/9519517)
 
 ### Presented Slides  
-[presentation="presentations/placeholder-slides"]  
+[Placeholder Slides](https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/pub?start=false&loop=false&delayms=3000)
 
-[presentation="presentations/module-01"]
+[googleslides url="https://docs.google.com/presentation/d/e/2PACX-1vSPiOUzmRG4EB6ng8KQgOwZEbVuN2u1d5tGVTiAyzlVuO_o4Zjyli3oAf_U_CqXml_6GMUBR9nUyEYb/embed?start=false&loop=false&delayms=3000"]
 
 ### Supplemental Materials  
 [Elements of User Experience by Jesse James Garrett](https://qofr.files.wordpress.com/2016/11/q-of-r-presentation-11.pdf)  
