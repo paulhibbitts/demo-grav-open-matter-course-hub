@@ -1,3 +1,16 @@
+# v3.2.9
+## 07/19/2020
+
+1. [](#bugfix)
+    * Fixed Presentation blueprint error (thanks @SteveDaulton)
+    * Fixed Section and Subsection blueprint error
+
+# v3.2.8
+## 07/12/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
 # v3.2.7
 ## 07/10/2020
 
