@@ -1,3 +1,76 @@
+# v3.4.1
+## 11/28/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.4.0
+## 11/09/2020
+
+1. [](#bugfix)
+    * Corrected CSS styling for active page button on RSSFeeds page
+
+# v3.3.9
+## 09/06/2020
+
+1. [](#improved)
+    * Added support for External Links Plugin target with badge shortcode target
+
+# v3.3.8
+## 09/04/2020
+
+1. [](#bugfix)
+    * Corrected CSS styling for button, badge, and navbar-branding elements
+
+# v3.3.7
+## 09/04/2020
+
+1. [](#improved)
+    * Updated Link page blueprint to include badge label, type and url
+
+# v3.3.6
+## 09/03/2020
+
+1. [](#improved)
+    * Added support for badge types and urls in link page types
+
+# v3.3.5
+## 09/03/2020
+
+1. [](#improved)
+    * Added `target` attribute to badge shortcode
+
+# v3.3.4
+## 08/16/2020
+
+1. [](#bugfix)
+    * Fixed issue with modular item display on Blog pages
+
+# v3.3.3
+## 07/24/2020
+
+1. [](#improved)
+    * Adjusted visual appearance of badges for link page types
+
+# v3.3.2
+## 07/24/2020
+
+1. [](#improved)
+    * Added support of link `url` to badges
+    * Adjusted visual appearance of badges
+
+# v3.3.1
+## 07/22/2020
+
+1. [](#bugfix)
+    * Updated templates for latest RC build (v.15)
+
+# v3.3.0
+## 07/22/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
 # v3.2.9
 ## 07/19/2020
 
@@ -83,8 +156,6 @@
 
 1. [](#new)
     * Added `badge` shortcode for display of badges
-1. [](#improved)
-    * Added support for optional display of badge with `link` page types
 
 # v3.1.5
 ## 04/26/2020
