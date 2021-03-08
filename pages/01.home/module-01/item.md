@@ -8,6 +8,11 @@ header_image_creditlink: 'https://www.flickr.com/photos/medevac71/10610701655/'
 hide_from_post_list: false
 continue_link: true
 hide_git_sync_repo_link: true
+hide_page_title: false
+show_sidebar: true
+visible: true
+feed:
+    limit: 10
 ---
 
 ## What is usability and user experience design?

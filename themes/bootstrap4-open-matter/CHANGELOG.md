@@ -1,3 +1,183 @@
+# v3.7.0
+## 03/02/2021
+
+1. [](#improved)
+    * Updated example CSS customizations for Canvas LMS
+
+# v3.6.9
+## 03/01/2021
+
+1. [](#bugfix)
+    * Fixed incorrect appearance of hover and focus on some elements
+
+# v3.6.8
+## 03/01/2021
+
+1. [](#improved)
+    * Removed Breadcrumbs plugin as dependency
+
+# v3.6.7
+## 03/01/2021
+
+1. [](#improved)
+    * Removed Feed plugin as dependency
+
+# v3.6.6
+## 02/28/2021
+
+1. [](#bugfix)
+    * Removed unneeded dependencies of Archives, TaxonomyList and SimpleSearch plugins
+
+# v3.6.5
+## 02/28/2021
+
+1. [](#improved)
+    * Updated Bootstrap to v4.6
+    * Updated Bootswatch to v4.6
+
+# v3.6.4
+## 02/28/2021
+
+1. [](#improved)
+    * Reduced plugin dependencies, thanks to the new Grav Skeleton build process
+
+# v3.6.3
+## 02/18/2021
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.6.2
+## 02/18/2021
+
+1. [](#improved)
+    * Changed default sort order for Course Subsites List
+
+# v3.6.1
+## 02/18/2021
+
+1. [](#improved)
+    * Changed default for Course Subsites List to 2 cards per row
+
+# v3.6.0
+## 02/17/2021
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.5.9
+## 02/17/2021
+
+1. [](#bugfix)
+    * Fixed several display format issues with iFrame template and blueprint
+    * Fixed incorrect variable name in iFrame template
+
+# v3.5.8
+## 02/16/2021
+
+1. [](#improved)
+    * Updated Default Editor PDF and H5P shortcode syntax to be compatible with NextGen shortcode previews
+
+# v3.5.7
+## 02/15/2021
+
+1. [](#improved)
+    * Updated GoogleSlides shortcode formatting to use Bootstrap responsive embed class
+
+# v3.5.6
+## 02/03/2021
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.5.5
+## 02/02/2021
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.5.4
+## 01/31/2021
+
+1. [](#improved)
+    * Set Course Subsite page blueprint default folder ('home')
+
+# v3.5.3
+## 01/30/2021
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder (numeric prefixes used for home page modular content ordering, thanks to @ricardo118)
+
+# v3.5.2
+## 01/29/2021
+
+1. [](#bugfix)
+    * Removed unneeded <br> tags in Partial templates
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.5.1
+## 01/28/2021
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.5.0
+## 01/26/2021
+
+1. [](#improved)
+    * Updated theme blueprints for Grav 1.7
+
+# v3.4.9
+## 01/25/2021
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.4.8
+## 01/15/2021
+
+1. [](#new)
+    * GoogleSlides shortcode updated to handle double `_` characters in URL (thanks @GeorgesPapas)
+
+# v3.4.7
+## 01/05/2021
+
+1. [](#new)
+    * Initial NextGen Editor support for H5P shortcode
+
+# v3.4.6
+## 12/21/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.4.5
+## 12/20/2020
+
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.4.4
+## 12/20/2020
+
+1. [](#new)
+    * Initial NextGen Editor support for PDF shortcode
+1. [](#improved)
+    * Updated demo pages in theme '_demo' folder
+
+# v3.4.3
+## 12/19/2020
+
+1. [](#new)
+    * Initial NextGen Editor support for GoogleSlides, Button and Badge shortcodes
+
+# v3.4.2
+## 11/29/2020
+
+1. [](#improved)
+    * Updated theme screenshots
+
 # v3.4.1
 ## 11/28/2020
 
@@ -106,7 +286,7 @@
 ## 07/03/2020
 
 1. [](#new)
-    * Added GoogleSlides Shortcode ([googleslides url=""]) to display embedded Google Slides
+    * Added GoogleSlides Shortcode ([googleslides="url"]) to display embedded Google Slides
 
 # v3.2.3
 ## 06/09/2020
